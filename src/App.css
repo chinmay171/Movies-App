@@ -88,3 +88,11 @@
    position: absolute;
    bottom: 2rem;
  } 
+
+ .genre-selector{
+  padding: 3rem;
+ }
+
+ .fav-table{
+  padding: 3rem;
+ }
