@@ -26,10 +26,16 @@ class MovieList extends Component{
         })
     }
     handleNext=()=>{
-        this.setState({
-            pArr: [...this.state.pArr,this.state.pArr.length+1],
-            currPage:this.state.currPage+1
-        },this.changeMovies);
+        if(this.state.currPage == this.state.pArr.length){
+            this.setState({
+                pArr: [...this.state.pArr,this.state.pArr.length+1],
+                currPage:this.state.currPage+1
+            },this.changeMovies);
+        }else{
+            this.setState({
+                currPage:this.state.currPage+1
+            },this.changeMovies);
+        }
     }
 
     handlePrevious=()=>{
