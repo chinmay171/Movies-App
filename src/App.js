@@ -7,11 +7,13 @@ import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
 function App() {
   return(
     <BrowserRouter>
+    <div className="wholePage">
       <NavBar/>
       <Routes>
         <Route path = "/" element={<><Banner/><MovieList/></>}/>
         <Route path = "/favourites" element={<Fav/>}/>
       </Routes>
+      </div>
     </BrowserRouter>
   )
 }

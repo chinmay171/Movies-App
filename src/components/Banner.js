@@ -1,5 +1,6 @@
 import { Component } from "react";
 import axios from "axios";
+import '../App.css';
 
 class Banner extends Component{
     constructor(){

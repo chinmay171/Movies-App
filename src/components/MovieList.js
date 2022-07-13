@@ -1,6 +1,5 @@
 import { Component } from "react";
 import axios from "axios";
-
 class MovieList extends Component{
     constructor(){
         super();
@@ -78,20 +77,20 @@ class MovieList extends Component{
         return(
             <>
             <div>
-                <h3 className="text-center"><strong>Trending</strong></h3>
+                <h3 className="text-center" style={{color:"#ffffff",textDecoration:"none",marginBottom:"2.5rem",fontSize:"2rem"}}><strong>Discover Your Favourites</strong></h3>
             </div>
 
             <div className="movies-list">
                 {this.state.movies.map((movieEle)=>(
                     <div className="card movie-card" onMouseEnter={()=>this.setState({hover : movieEle.id})} onMouseLeave= {()=>this.setState({hover : ""})}>
-                        <img src={`https://image.tmdb.org/t/p/original${movieEle.backdrop_path}`} style={{height:'40vh',width:'20vw'}} className="card-img-top movie-img" alt="..."/>
+                        <img src={`https://image.tmdb.org/t/p/original${movieEle.backdrop_path}`}  className="card-img-top movie-img" alt="..."/>
                         <h5 className="card-title  movie-title">{movieEle.title}</h5>
                         <div style={{display:'flex',justifyContent:"center"}}>
                             {this.state.hover == movieEle.id && (
                             // <a type="button" className="btn btn-primary movies-button" onClick={()=>this.handleFavourites(movieEle)}>
                             //     {this.state.favourites.includes(movieEle.id)?"Remove From Favourites":"Add To Favourites"}
                             //     </a>)}
-                            <a type="button" className="btn btn-primary movies-button" onClick={()=>this.handleFavourites(movieEle)}>
+                            <a type="button" className="movies-button" onClick={()=>this.handleFavourites(movieEle)}>
                                     {this.state.favourites.includes(movieEle.id)?"Remove from Favourites":"Add to Favourites"}
                                 </a>)}
                         </div>
@@ -99,7 +98,7 @@ class MovieList extends Component{
                 ))}
             </div>
 
-            <div style = {{display : "flex", justifyContent : "center"}}>
+            <div style = {{display : "flex", justifyContent : "center",padding:"0.5rem"}}>
                 <nav aria-label="Page navigation example">
                 <ul className="pagination">
                     <li className="page-item"><a className="page-link" onClick={this.handlePrevious}>Previous</a></li>

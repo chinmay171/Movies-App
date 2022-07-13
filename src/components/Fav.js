@@ -139,7 +139,7 @@ class Fav extends Component{
         return(
             <div className="container">
                 <div className="row">
-                    <div className="col-4">
+                    <div className="col-3">
                         <ul className="list-group genre-selector">
                             {
                                 this.state.genres.map((genre)=>(
@@ -151,10 +151,10 @@ class Fav extends Component{
                             }
                         </ul>
                     </div>
-                    <div className="col-8 fav-table">
+                    <div className="col-9 fav-table">
                         <div className="row">
                             <input type="text" className="form-control col" placeholder="Search" value = {this.state.currText} onChange={(e)=>this.handleChangeText(e.target.value)}/>
-                            <input type="number" className="form-control col"/>
+                            {/* <input type="number" className="form-control col"/> */}
                         </div>
 
                         <table className="table">
@@ -190,6 +190,7 @@ class Fav extends Component{
                             </tbody>
                         </table>
 
+                        <div style = {{display : "flex", justifyContent : "center",padding:"0.5rem",position:"relative"}}>
                         <nav aria-label="Page navigation example">
                             <ul className="pagination text-center">
                                 <li className="page-item"><a className="page-link" href="#">1</a></li>
@@ -197,6 +198,7 @@ class Fav extends Component{
                                 <li className="page-item"><a className="page-link" href="#">3</a></li>
                             </ul>
                         </nav>
+                        </div>
                     </div>
                 </div>
             </div>
