@@ -4,6 +4,7 @@ import Banner from './components/Banner'
 import MovieList from './components/MovieList';
 import Fav from "./components/Fav";
 import {BrowserRouter, Route, Router, Routes} from "react-router-dom";
+import Fireauth from './components/Fireauth';
 function App() {
   return(
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path = "/" element={<><Banner/><MovieList/></>}/>
         <Route path = "/favourites" element={<Fav/>}/>
+        <Route path = "/Fireauth" element = {<Fireauth/>}/>
       </Routes>
       </div>
     </BrowserRouter>

@@ -9,7 +9,7 @@ class NavBar extends Component{
                 <Link to = "/" style={{textDecoration:"none"}}><h1 className="movieBar">𝕄𝕆𝕍𝕀𝔼𝕊</h1></Link>
                 <h7 style={{textDecoration:"none",marginLeft:"0.12rem",marginTop:"1rem"}}>WITH EASE</h7>
                 <Link to = "/favourites" style={{textDecoration:"none", marginLeft:"0rem",marginTop:"0.1rem"}}><h2 className="fav">Favourites</h2></Link>
-                <button className="signIn">Sign In</button>
+                <Link to = "/Fireauth" ><button className="signIn">Sign In</button></Link>
             </div>
         )
     }

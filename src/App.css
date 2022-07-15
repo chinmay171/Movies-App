@@ -197,3 +197,73 @@ border-radius: 0.2rem;
   background-color: black;
   color: white;
  }
+
+.signPage{
+  background: url(./Netflix-Background.jpg);
+  position: relative;
+  top: 0em;
+  left: 0rem;
+  height: 87vh;
+  width: 100%;
+}
+
+ .inputArea{
+  background-color:#000000;
+  opacity: 0.9;  
+  height: 60vh;
+  width: 30vw;
+  position: absolute;
+  top: 10vh;
+  left: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+ }
+
+ .emailArea{
+  background-color:#282c34;
+  padding: 1rem;
+  color:white;
+  /* opacity:  */
+  font-size: 1.25rem;
+  height: 10vh;
+  width: 28vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 4vh;
+  left: 2vh;
+  /* border-radius: 1rem; */
+  border: none;
+ }
+
+ .passwdArea{
+  background-color:#282c34;
+  padding: 1rem;
+  /* cursor: cell; */
+  color:white;
+  font-size: 1.25rem;
+  height: 10vh;
+  width: 28vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 16vh;
+  left: 2vh;
+  /* border-radius: 1rem; */
+  border: none;
+ }
+
+ .createbutton{
+  background-color:#ff0000;
+  border: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  height: 8vh;
+  width: 22vw;
+  position: absolute;
+  top: 45vh;
+  left: 8vh;
+ }
