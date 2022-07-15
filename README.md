@@ -15,7 +15,7 @@ Deployed Link -> https://movie-app-chinmay.netlify.app/
 
 ## sign up ---
 
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/72167507/179172131-a3656962-7735-404b-8560-087ebf9d48c9.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/72167507/179172890-e8d64b1e-0612-4c85-9146-5ab48363db21.png">
 
 
 # Getting Started with Create React App
