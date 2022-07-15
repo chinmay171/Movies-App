@@ -1,6 +1,23 @@
 
 Deployed Link -> https://movie-app-chinmay.netlify.app/
 
+##Screenshots home page ---
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/72167507/179171805-168050b6-879c-4e3d-9bfd-c1ef501cc4dc.png">
+
+## select favourite ---
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/72167507/179172003-0ae7b73b-40d5-4a5a-b134-5ff7f7139690.png">
+
+## sort favourite ---
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/72167507/179172071-c4b95b9c-d998-42c5-aa51-94db37bcbf8e.png">
+
+## sign up ---
+
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/72167507/179172131-a3656962-7735-404b-8560-087ebf9d48c9.png">
+
+
 # Getting Started with Create React App
 
 
